@@ -15,3 +15,4 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 - [ ] 4. construção das classes e testes
 - [ ] 5. implementação utilizável dos códigos escritos
 - [ ] 6. otimização da interface para o usuário
+- [ ] 7. comemorar depois que tudo der certo :tada:
