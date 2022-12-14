@@ -21,3 +21,5 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 - é esperado que o tempo de desenvolvimento seja maior do que o necessário. esse projeto está sendo desenvolvido em paralelo com minhas atividades escolares, que drenam muito do meu tempo.
 
 ## to-do
+- .
+- .
