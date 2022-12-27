@@ -7,7 +7,8 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 ## funcionamento
 - os códigos serão escritos principalmente em c++
 - os cadastros de livros/usuários e informações serão armazenados em arquivos de texto (inicialmente em .txt, por sua simplicidade e praticidade)
-![alt text](diagrama.PNG)
+
+![diagrama](diagrama.PNG)
 
 
 ## cronograma
