@@ -176,12 +176,63 @@ int atualizaLivro(char arquivo_leitura[]){
         perror("erro deletando o arquivo de leitura");
     if(rename(arquivo_gravura.c_str(), arquivo_leitura) != 0) // renomeia o arquivo temporario para o arquivo original (substituindo)
         perror("erro renomeando o arquivo de gravacao");
+
+    cout << "livro atualizado com sucesso." << endl;
+    return ERR_SUCESSO;
+}
+
+int deletaLivro(char arquivo_leitura[]){
+
+    ofstream outFile; // cria variavel para o arquivo para gravacao de dados
+    ifstream inFile; // cria variavel para o arquivo para leitura de dados
+
+    inFile.open(arquivo_leitura, ios::in); // abre o arquivo em modo de leitura
+
+    // definindo o nome do arquivo de saida
+    string arquivo_gravura = arquivo_leitura; // copia o nome do arquivo para outra string
+    arquivo_gravura.insert(arquivo_gravura.rfind("."), "_temp"); // adiciona '_temp' antes do ultimo '.' no nome do arquivo
+    // exemplo: 'arquivo.wav' ira se tornar 'arquivo_temp.wav'
+
+    outFile.open(arquivo_gravura, ios::out); // abre o arquivo em modo de gravacao
+
+    if(!inFile || !outFile){ // testa se os arquivos foram abertos corretamente
+        cerr << "erro ao abrir os arquivos de leitura/gravacao" << endl;
+        return ERR_OPEN;
+    }
+
+    int linha = 0;
+    cout << "deletar o livro com qual id?" << endl;
+    cout << "id: "; cin >> linha;
+    linha *= QuantidadeDadosLivro; // cada livro ocupa 5 linhas no arquivo dos dados
+
+    int atual = 0; // contagem atual de linhas
+
+    char temp1[MAXCHAR]; // variavel temporaria
+    while(atual < linha){ // copia as linhas do arquivo original para o arquivo temporario ate chegar nas linhas que devem ser modificadas
+            inFile.getline(temp1, MAXCHAR);
+            outFile << temp1 << endl;
+            atual++;
+    }
+
+    for(int i = 0; i < 5; i++) inFile.getline(temp1,MAXCHAR); // le as linhas a serem deletadas no arquivo original (pra passar o ponteiro pra frente)
+
+    while(inFile.getline(temp1,MAXCHAR)) outFile << temp1 << endl; // copia as linhas finais do arquivo (mesmo método do inicio do arquivo
+
+    outFile.close(); // fecha os arquivos
+    inFile.close();
+
+    if(remove(arquivo_leitura) != 0) // apaga o arquivo original
+        perror("erro deletando o arquivo de leitura");
+    if(rename(arquivo_gravura.c_str(), arquivo_leitura) != 0) // renomeia o arquivo temporario para o arquivo original (substituindo)
+        perror("erro renomeando o arquivo de gravacao");
+
+    cout << "livro deletado com sucesso." << endl;
     return ERR_SUCESSO;
 }
 
 int main(){
 
-    /*
+    /* conversao de tempo (utilizado no momento da retirada)
     pegar data atual
     time_t now = time(0);
     char* date_time = ctime(&now);
@@ -195,7 +246,7 @@ int main(){
     int temp = 0;
 
     while(temp != 9){
-        cout << endl << "digite 1 para ler livros, 2 para criar livros ou 9 para fechar" << endl;
+        cout << endl << "digite 1 para ler livros, 2 para adicionar um livro, 3 para atualizar um livro, 4 para deletar um livro ou 9 para encerrar o programa" << endl;
         cin >> temp; cout << endl;
 
         if(temp == 1){
@@ -212,6 +263,12 @@ int main(){
 
         if(temp == 3){
             if(atualizaLivro(arquivo) == ERR_OPEN){ // testa se o arquivo foi aberto corretamente
+                return ERR_OPEN;
+            }
+        }
+
+        if(temp == 4){
+            if(deletaLivro(arquivo) == ERR_OPEN){ // testa se o arquivo foi aberto corretamente
                 return ERR_OPEN;
             }
         }
