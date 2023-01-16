@@ -29,4 +29,3 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 
 ### known-issues
 - .
-- .
