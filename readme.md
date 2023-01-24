@@ -15,8 +15,8 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 - [x]  1. ![](https://geps.dev/progress/100) testes com leitura/gravacao de arquivos de texto
 - [x]  2. ![](https://geps.dev/progress/100) planejamento das classes
 - [x]  3. ![](https://geps.dev/progress/100) criação dos primeiros arquivos com livros/usuários
-- [ ]  4. ![](https://geps.dev/progress/100) construção da classe livro e testes
-- [ ]  5. ![](https://geps.dev/progress/100) métodos para adição, remoção e edição de livros
+- [x]  4. ![](https://geps.dev/progress/100) construção da classe livro e testes
+- [x]  5. ![](https://geps.dev/progress/100) métodos para adição, remoção e edição de livros
 - [ ]  6. ![](https://geps.dev/progress/30) construção da classe usuario e testes
 - [ ]  7. ![](https://geps.dev/progress/15) métodos para retirada de livros
 - [ ]  8. ![](https://geps.dev/progress/10) sistema de datas de entrega e multas
