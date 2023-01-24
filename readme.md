@@ -12,13 +12,16 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 
 
 ## cronograma
-- [x] 1. ![](https://geps.dev/progress/100) testes com leitura/gravacao de arquivos de texto
-- [x] 2. ![](https://geps.dev/progress/100) planejamento das classes
-- [x] 3. ![](https://geps.dev/progress/100) criação dos primeiros arquivos com livros/usuários
-- [ ] 4. ![](https://geps.dev/progress/40) construção das classes e testes
-- [ ] 5. ![](https://geps.dev/progress/30) implementação utilizável dos códigos escritos
-- [ ] 6. ![](https://geps.dev/progress/20) otimização da interface para o usuário
-- [ ] 7. ![](https://geps.dev/progress/65) comemorar depois que tudo der certo :tada:
+- [x]  1. ![](https://geps.dev/progress/100) testes com leitura/gravacao de arquivos de texto
+- [x]  2. ![](https://geps.dev/progress/100) planejamento das classes
+- [x]  3. ![](https://geps.dev/progress/100) criação dos primeiros arquivos com livros/usuários
+- [ ]  4. ![](https://geps.dev/progress/100) construção da classe livro e testes
+- [ ]  5. ![](https://geps.dev/progress/100) métodos para adição, remoção e edição de livros
+- [ ]  6. ![](https://geps.dev/progress/30) construção da classe usuario e testes
+- [ ]  7. ![](https://geps.dev/progress/15) métodos para retirada de livros
+- [ ]  8. ![](https://geps.dev/progress/10) sistema de datas de entrega e multas
+- [ ]  9. ![](https://geps.dev/progress/20) otimização da interface para o usuário
+- [ ] 10. ![](https://geps.dev/progress/64) comemorar depois que tudo der certo :tada:
 
 ## observações
 - é esperado que o tempo de desenvolvimento seja maior do que o necessário. esse projeto está sendo desenvolvido em paralelo com minhas atividades escolares, que drenam muito do meu tempo.
