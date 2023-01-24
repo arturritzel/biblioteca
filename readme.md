@@ -21,7 +21,7 @@ estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
 - [ ]  7. ![](https://geps.dev/progress/15) métodos para retirada de livros
 - [ ]  8. ![](https://geps.dev/progress/10) sistema de datas de entrega e multas
 - [ ]  9. ![](https://geps.dev/progress/20) otimização da interface para o usuário
-- [ ] 10. ![](https://geps.dev/progress/64) comemorar depois que tudo der certo :tada:
+- [ ]  0. ![](https://geps.dev/progress/64) comemorar depois que tudo der certo :tada:
 
 ## observações
 - é esperado que o tempo de desenvolvimento seja maior do que o necessário. esse projeto está sendo desenvolvido em paralelo com minhas atividades escolares, que drenam muito do meu tempo.
