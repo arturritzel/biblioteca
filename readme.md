@@ -1,4 +1,4 @@
-kkkkkk quero refazer tudo isso daqui pq ta terrivel. as classes tem que interagir direito. o tui do passado devia ta tomando uma cervejinha quando fez isso
+# kkkkkk quero refazer tudo isso daqui pq ta terrivel. as classes tem que interagir direito. o tui do passado devia ta tomando uma cervejinha quando fez isso <br> <br> <br> <br> <br> 
   
     
       
