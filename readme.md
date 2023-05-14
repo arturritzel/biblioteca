@@ -1,3 +1,5 @@
+kkkkkk quero refazer tudo isso daqui pq ta terrivel. as classes tem que interagir direito. o tui do passado devia ta tomando uma cervejinha quando fez isso
+
 # biblioteca
 projeto que simula um sistema bibliotecário: com livros e usuários cadastrados, sistema para retirada e devolução de livros, datas de entregas, multas, etc.
 
