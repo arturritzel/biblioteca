@@ -6,5 +6,3 @@ testes-1: preparação. ideia.
 testes-2: aprimoramento. pesquisa.
 - feito por um aluno aprimorando seu c++
   
-<br>
-- 
