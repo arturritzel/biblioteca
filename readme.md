@@ -6,7 +6,7 @@ projeto que simula um sistema bibliotecário: com livros e usuários cadastrados
 estudo e reforço do aprendizado de C++, com foco em classes e leitura/gravação de arquivos
 
 ## funcionamento
-- os códigos serão escritos em c++
+- os códigos serão escritos em C++
 - os cadastros de livros/usuários e informações serão armazenados em arquivos de texto (inicialmente em .txt, por sua simplicidade e praticidade)
 
 ![diagrama](diagrama.png)
