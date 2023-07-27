@@ -1,17 +1,12 @@
-# kkkkkkkk quero refazer tudo isso daqui pq ta terrivel. as classes tem que interagir direito. o tui do passado devia ta tomando uma cervejinha quando fez isso <br> <br> <br> <br> <br> 
   
-    
-      
-        
-          
 # biblioteca
 projeto que simula um sistema bibliotecário: com livros e usuários cadastrados, sistema para retirada e devolução de livros, datas de entregas, multas, etc.
 
 ## objetivo
-estudo e reforço do aprendizado sobre classes e leitura/gravação de arquivos
+estudo e reforço do aprendizado de C++, com foco em classes e leitura/gravação de arquivos
 
 ## funcionamento
-- os códigos serão escritos principalmente em c++
+- os códigos serão escritos em c++
 - os cadastros de livros/usuários e informações serão armazenados em arquivos de texto (inicialmente em .txt, por sua simplicidade e praticidade)
 
 ![diagrama](diagrama.png)
