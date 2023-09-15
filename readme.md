@@ -1,6 +1,6 @@
   
 # biblioteca
-projeto que simula um sistema bibliotecário: com livros e usuários cadastrados, sistema para retirada e devolução de livros, datas de entregas, multas, etc.
+projeto que simula um sistema bibliotecário: com um banco de dados de livros e usuários cadastrados, sistema para retirada e devolução de livros, datas de entregas, multas, etc.
 
 ## objetivo
 estudo e reforço do aprendizado de C++, com foco em classes e leitura/gravação de arquivos
